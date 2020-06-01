@@ -1,0 +1,34 @@
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.17, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
+rootdir: --------------------, inifile:
+collected 1 item                                                               
+
+test_sample.py F                                                         [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_answer __________________________________
+
+    def test_answer():
+>       assert inc(1) == 5
+E       assert 2 == 5
+E        +  where 2 = inc(1)
+
+test_sample.py:5: AssertionError
+=========================== 1 failed in 0.01 seconds ===========================
+
+
+
+
+
+
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.17, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
+rootdir: -------------------, inifile:
+collected 1 item                                                               
+
+test_sample.py .                                                         [100%]
+
+=========================== 1 passed in 0.01 seconds ===========================
+[master e596492] Fixed the assertion error
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
